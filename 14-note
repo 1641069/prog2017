@@ -1,0 +1,85 @@
+import turtle
+turtle = turtle.Turtle()
+
+問題１６７
+def rect(x,y,a):
+   t.up()
+   t.home
+   t.forward(x)
+   t.left(90)
+   t.forward(y)
+   t.down()
+   for i in range(4):
+      t.forward(a)
+      t.left(-90)
+      
+四角を４つ描く。
+
+t.clear()
+rect(10,10,100)
+
+limport randam
+randam. randint(1,6)
+
+問題１６８
+class Dice:
+   face_num=6
+   def shoot(self):
+      return randam.randint(1,self.face_num)
+      
+import randam
+aDice=Dice() #クラスを元にオブジェクトを作る。
+aDice.shoot() #オブジェクトを使う。
+
+問題１６９
+class Dice:
+   face_num=6
+   def shoot(self):
+      return randam.randint(1,self.face_num)
+      
+import randam
+aDice=Dice(ｎ) #クラスを元にオブジェクトを作る。
+aDice.shoot() #オブジェクトを使う。
+
+元の数字を変える。
+
+問題１７０
+Dice
+face_num
+shoot()
+
+問題１７１
+self
+
+問題１７２
+init
+
+問題１７３から問題１７７オプショナル
+
+問題１７８
+コントロールVなど
+
+問題１７９
+CUI　　ちとむずい。勝手がいい。
+GUI　　スマホなどはこっち。
+
+問題１８０
+dir
+
+問題１８１
+
+問題１８７
+import sys
+
+for line in sys.stdin:
+  print(line)
+<>読み込む向き
+
+問題１８８
+import sys
+
+sum = 0
+for line in sys.stdin:
+  sum += int(line.strip())
+  
+print(sum)
